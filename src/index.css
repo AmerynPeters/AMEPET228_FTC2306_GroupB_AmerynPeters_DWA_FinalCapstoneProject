@@ -1,85 +1,13 @@
-/* -------------------------------------------- MY GLOBAL STYLING -------------------------------------------- */
-* {
-  box-sizing: border-box;
+body {
   margin: 0;
-  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-body, html {
-  font-family: "Comic Sans MS", "serif";
-  margin: 0;
-}
-h1 {
-  margin: 0;
-  color: white;
-  margin-left: 2rem;
-}
-h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-h3 {
-  font-size: 20px;
-  margin-bottom: 5px;
-  color: #000000; 
-}
-h4 {
-  font-size: 18px;
-  margin-bottom: 5px;
-  color: #ccc;
-}
-p {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #bbb; 
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-li {
-  margin-bottom: 10px;
-}
-button {
-  background-color: #000000;
-  border: none;
-  color: #ffffff;
-  padding: 3rem 1rem;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-  display: block;
-  margin: 20px auto; 
-  height: 50%;
-  width: 50%; 
-}
-button:hover {
-  background-color: #7e3571; 
-}
-#root {
-  max-width: 1350px;
-  text-align: center;  
-}
-.previous--icon {
-  cursor: pointer;
-}
-@media (min-width: 375px) {
-  .up {
-    max-width: 2.5rem;
-    position: fixed;
-    right: 1.5rem;
-    bottom: 6rem;
-  }
-  .previous--icon{
-    max-width: 2.5rem;
-  }
-  p {
-    font-size: 1rem;
-    padding: 0;
-  }
-  h1 {
-    font-size: 2.8rem;
-  }
-  h2 {
-    font-size: 1.8rem;
-  }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

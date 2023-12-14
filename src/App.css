@@ -1,220 +1,38 @@
-.about--section {
-  color: white;
+.App {
+  text-align: center;
 }
 
-/* ------------------------------------------- NAVBAR ------------------------------------------- */
-.navbar-container {
-  background-color: transparent; 
-  position: absolute;
-  border-radius: none;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  padding: 0 100px;
-  box-shadow: none;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-.navbar-container button {
-  background-color: #caa0c3;
-  box-shadow: 0px 2.98256px 7.4564px rgba(10, 10, 10, 10);
-  color: #ffffff5e;
-  border: none;
-  border-radius: 20rem;
-  padding: 10px 20px;
-  margin: 0 1rem;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.8s ease, box-shadow 0.3s ease; /*makes it effect */
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
-/* ------------------------------------------- HOME ------------------------------------------- */
-.home-container {
-  text-align: center;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.802); 
-  color: #7e3571;
-}
-.titles {
-  display: inline-flex;
-  align-items: end;
-  margin-top: 2rem;
-}
-.main-heading {
-  font-family: Georgia, serif;
-  color: #7e3571;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-  line-height: 1.2;
-  font-size: 3vw;
-  text-align: center;
-}
-span {
-  display: block;
-  font-size: 5rem;
-  letter-spacing: 0.2rem;
-}
-.form-head {
-  display: flex;
-}
-h1 {
-  font-size: 28px;
-  margin-bottom: 20px;
-}
-/* Display list style */
-.show-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-/* Display link style */
-.show-link {
-  text-decoration: none;
-  color: #eee;
-}
-/* Display info container style */
-.show--info {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  border: 1px solid #555; 
-  border-radius: 4rem;
-  padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-/* Display image style */
-.show--image {
-  max-width: 20%;
-  object-fit: cover;
-  border-radius: 20%;
-  margin: auto;
-}
-.show--image--showPodcast {
-  max-width: 60%;
-}
-/* Display title style */
-.show--title {
-  color: white;
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-/* Show description style */
-.show--description {
-  font-size: 1rem;
-}
-/* Show info hover effect */
-.show-info:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly darker box-shadow on hover with more depth */
-}
-.favorite--icon {
-  max-width: 4%;
-  position: absolute;
-  right: 42rem;
-}
-/* .show--seasons {
-  dis
-} */
-/* ------------------------------------------- SHOWPODCAST ------------------------------------------- */
-.showPodcast--container {
-  margin: 8rem;
-  padding: 15px;
-  border: 1px solid #ffffff; /* Darker border color */
-  border-radius: 8px;
-  background-color: black; /* Darker background color */
-}
-audio {
-  width: 100%;
-  margin-top: 10px;
-}
-/* Show the episodes List when the button is clicked */
-.episodes--list {
-  display: none;
-  padding: 10px;
-  border: 1px solid #7e3571; 
-  border-radius: 8px;
-  background-color: #00000042;
-}
-/* Add a class to show the episodes list */
-.show--episodes {
-  display: block !important;
-}
-/* ------------------------------------------- HOME ------------------------------------------- */
-.home-container {
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  padding: 20px;
-}
-.search--sort--container {
-  display: flex;
-  justify-content: flex-end; 
-  margin-bottom: 40px;
-}
-/* Apply margin-left: auto to the search bar element to push it to the right */
-.search-bar {
-  margin-left: auto;
-}
-input[type="text"] {
-  width: 55%;
-  padding: 10px;
-  margin-right: 10px;
-  border-radius: 20rem;
-  border: 3px #7e3571 solid;
-}
-select {
-  padding: 10px;
-  border-radius: 20rem;
-  border: 3px #7e3571 solid;
-}
-.show--list {
-  list-style-type: none;
-  padding: 0;
-}
-.show--info {
-  display: flex;
   align-items: center;
-  margin-bottom: 20px;
-  border: 1px solid #7e3571;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
-  padding: 10px;
-  cursor: pointer;
-  transition: box-shadow 0.3s ease; 
-}
-
-.show--details {
-  flex: 1;
-}
-.favorite--container{
-  background-color: #00000035;
-}
-.favorite--items {
-  width:20%;
-  background-color: rgb(248, 246, 246);
-}
-.genres--container {
-  position: relative; 
-  top: -20px;
-}
-.loading--text {
-  padding-top: 5rem;
-  font-weight: bold;
-};
-
-
-/* LoginForm */
-.main-heading {
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
 }
-@media (min-width: 375px) {
-  .navbar-container button {
-    font-size: 1rem;
-    /* padding: 0rem 2rem; */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  .showPodcast--container {
-    margin: 5rem;
+  to {
+    transform: rotate(360deg);
   }
-};
+}
