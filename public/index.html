@@ -1,1 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito&display=swap" rel="stylesheet">
+    <!-- Meta tag link -->
+    <title>PodCat</title>
+    <meta name="title" content="Podcast" />
+    <meta name="description" content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Styling within Html approach is suitable for small projects or quick prototypes, 
+        for larger and more complex websites -->
+    <style>
+        body {
+            background-image: url(images/banner.png); /* Replace with the actual path to your background image */
+            background-size: cover; /* This scales the image to cover the entire background */
+            background-repeat: no-repeat; /* Prevents the background image from repeating */
+            background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+            
+        }
+    </style>
+  </head>
+  <body id="home">
+    <div id="top" class="Heading">
+    <!-- Content for the Heading div -->
+  </div>
+  <div id="root"></div>
+  <!-- Back to Top Icon -->
+  <a href="#top"><img class="up" src="./public/up-arrow.png"></a>
+  <script type="module" src="./src/main.jsx"></script>
+  <script>
+        // JavaScript function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+  </script>
+  </body>
+</html>
 
