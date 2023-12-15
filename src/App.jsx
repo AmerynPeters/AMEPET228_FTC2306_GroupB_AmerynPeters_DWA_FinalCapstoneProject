@@ -5,16 +5,13 @@
  */
 import { useEffect, useState } from 'react';
 // import { Route, Switch } from 'react-router-dom';
-import './App.css';
-import Navbar from './components/Navbar';
-import Home from './components/homePage';
-import Favorite from './components/Favourites';
-import ShowPodcast from './components/ShowPodcasts';
-import History from './components/History';
-import Authentication from './components/loginForm';
-import SocialMediaLinks from './components/SocialMediaLinks';
+import App from 'App.css';
+import App from'index.css';
+import reportWebVitals from 'reportWebVitals.js'
+import index from'index.js';
 
-export default function App() {
+
+ function App() {
   /**  
    * State variables for managing the current page, selected podcast, and favorite episodes
    */
@@ -154,3 +151,46 @@ export default function App() {
      </>}
      {/* </switch> */}
 </>)};
+
+
+import logo from '.public/logo.png';
+import './App.css';
+import { Form , Input, Button} from "antd";
+
+
+ function App() {
+<>
+
+
+  return (
+    
+                    
+                    <a>
+      className="App-link"
+      href="https://podcat.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      </a> <div className="App-main" /><header className="Cat-header" /><img src={logo} className="Cat-logo" alt="logo"> </img></>
+
+              [ /** Ant Design Form component*/ ]
+              
+              <Form onFinish>
+                  <><Form.Item label="UserName" name="username" /><Input placeholder="Username"></Input></>
+                  </Form.Item>
+
+                  <><Form.Item label="Password" name="password" /><Input placeholder="Password"></Input></>
+                  </Form.Item>
+
+                  <><Form.Item /><Button block type='primary' htmlType='submit'>Log In!</Button></></>
+                  </Form.Item>
+              </Form>
+              
+          </header >
+      </div>
+
+</>
+  };
+
+
+export default App;
+
