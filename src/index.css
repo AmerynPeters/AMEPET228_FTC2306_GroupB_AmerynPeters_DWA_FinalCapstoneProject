@@ -37,10 +37,6 @@ code {
 }
  
 @media (min-width: 375px) {
-
-
-  }
-
   .up {
     width: 2.5rem;
     height: 2.5rem;
@@ -62,6 +58,6 @@ code {
   h2 {
     font-size: 1.5rem;
   }
-
+}
 
 
