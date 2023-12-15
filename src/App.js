@@ -1,7 +1,7 @@
 import logo from '.public/logo.png';
 import './App.css';
-import { Form, Input, Button} from "antd"
-import FormItem from 'antd/es/form/FormItem';
+import { Form , Input, Button} from "antd"
+import Form.Item from 'antd/es/form/FormItem';
 
  App = () => {
   <div class="App">
