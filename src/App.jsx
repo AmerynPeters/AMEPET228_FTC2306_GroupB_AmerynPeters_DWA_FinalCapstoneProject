@@ -153,4 +153,4 @@ export default function App() {
       <SocialMediaLinks />
      </>}
      {/* </switch> */}
-}</>)};
+</>)};
