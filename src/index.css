@@ -36,6 +36,32 @@ code {
     border:5px solid #ffdaf7;
 }
  
+@media (min-width: 375px) {
+
+
+  }
+
+  .up {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 6rem;
+}
+
+  .previous--icon{
+    max-width: 2.5rem;
+  }
+  p {
+    font-size: 1rem;
+    padding: 0 2rem
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
 
 
 
