@@ -6,7 +6,8 @@ import "/.App.css";
 import "/.index.css";
 import "/.reportWebVitals.js";
 import "/.index.js";
-
+import "/.FuseSearch";
+import "/.LoginForm"
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(

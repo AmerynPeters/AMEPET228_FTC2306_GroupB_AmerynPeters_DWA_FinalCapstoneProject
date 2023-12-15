@@ -4,6 +4,12 @@ import PropTypes from "prop-types";
 // import { Link } from 'react-router-dom';
 import PreviousButton from "../assets/previous.png";
 // import { supabase } from './services/supabase.jsx';
+import { Checkbox } from 'antd';
+const onChange = (e) => {
+  console.log(`checked = ${e.target.checked}`);
+};
+const App = () => <Checkbox onChange={onChange}>Checkbox</Checkbox>;
+export default App;
 
 const Favorite = ({ favorites, setFavorites }) => {
     /**
