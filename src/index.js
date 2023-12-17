@@ -6,7 +6,7 @@ import "/.App.css";
 import "/.index.css";
 import "/.reportWebVitals.js";
 import "/.index.js";
-import FuseSearch from "./components/fuse/fuseSearch.jsx";"/.FuseSearch";
+import fuseSearch from "/.fuse/fuseSearch";
 import LoginForm from "/.LoginForm"
 
 
